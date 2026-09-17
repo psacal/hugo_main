@@ -42,6 +42,37 @@
           "title": "Categories",
           "name": "categories",
           "type": "categories"
+        },
+        {
+          "title": "menu",
+          "name": "menu",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "main",
+              "name": "main",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "weight",
+                  "name": "weight",
+                  "type": "number"
+                },
+                {
+                  "title": "params",
+                  "name": "params",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "icon",
+                      "name": "icon",
+                      "type": "string"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
